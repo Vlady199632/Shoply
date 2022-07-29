@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap"
+          rel="stylesheet">
+     <link rel="stylesheet" href="Asets/Css/login.css">
+     <link rel="stylesheet" href="Asets/Css/header.css">
+     <script src="w3.js"></script>
+     <title>Document</title>
+</head>
+<body>
+     <div w3-include-html="header.html"></div>
+     <div class="login__container">
+          <div class="login">
+               <div class="login__img">
+                    <img src="Asets/images/login/1.png" alt="">
+               </div>
+
+               <div class="login__field">
+                    
+
+                    <form action="#" class="login__form">
+                         <h2 class="login__title">LOGIN</h2>
+                         <div class="write__email">
+                              <img src="Asets/images/login/user.png" alt="" class="email__user">
+                              <input type="email" id="email" name="email" placeholder="your login">
+                         </div>
+                         <div class="write__password">
+                              <img src="Asets/images/login/password.png" alt="" class="passwoed__user">
+                              <input type="password" id="lupa" name="password" placeholder="your password">
+                              
+                         </div>
+                         <label for="lupa" class="password__label"> <a href="#">lupa password?</a> </label>
+
+                         
+                         <input id="problems" type="reset" value="Masuk">
+                         
+                         <p class="label__problems" for="problems">belum punya akun ? <a class="link__label__problems"   href="#">daftar sekarang</a></p>
+                    </form><!-- /. login__form -->
+               </div><!-- /. login__feeld -->
+          </div><!-- /. login -->
+     </div><!-- /. login__container -->
+     <script>
+
+          w3.includeHTML();
+
+     </script>
+</body>
+</html>
